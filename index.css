@@ -1,0 +1,79 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background-image: url('https://wallpapercave.com/wp/wp9568899.png')
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
+
+.search-container input{
+    font-size: 1em;
+    border: 3px solid rgb(204, 0, 0);
+    padding: 12px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.pokedex-container {
+    color: rgba(255, 255, 255, 0.89);
+
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.43);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pokedex-container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.pokedex-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 3px solid rgba(16, 15, 15, 0.47);
+}
+
+.pokedex-container p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
